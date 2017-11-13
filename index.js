@@ -25,3 +25,8 @@ function prependDriver(){
   const prepend = ['Arnold', ...drivers];
   return prepend;
 }
+
+function removeLastDriver(){
+  const last = drivers.slice(0,2);
+  return last;
+}
